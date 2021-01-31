@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/main.css">
     <link rel="icon" type="image/png"
         href="https://assets.oneweb.mercedes-benz.com/global/1.9.0/favicon/favicon-16x16.png" sizes="16x16">
+
     <title>Amg F1 Team</title>
 </head>
 
@@ -43,62 +44,48 @@
 
             </div>
             <div class="dot_here" style="text-align:center">
+                <!-- <div class="move-dot"> -->
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
+                <!-- </div> -->
             </div>
         </div>
 
-
-        <!-- <section class="section_1">
-            <div class="section_1_content"></div>
-        </section> -->
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
         <section class="section_2">
-            <div class="section_2_content">
-                <div class="title_01">
-                    <p>Drivers</p>
+            <div class="slideshow-2-container">
+                <div class="slide_btn">
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
                 </div>
-                <div class="img__01">
-                    <img src="/images/lewis.jpg" alt="">
-                    <img src="/images/valtteri.jpg" alt="">
+                <div class="black"></div>
+                <div class="mySlides2 fade2">
+                    <img class="main_slideImg" src="/images/대지 1.png">
+                    <div class="text"></div>
                 </div>
-                <div class="name">
-                    <p>Lewis Hamilton</p>
-                    <p>Valtteri Bottas</p>
+                <div class="mySlides2 fade2">
+                    <img class="main_slideImg" src="/images/wp4408198.jpg">
+                    <div class="text"></div>
                 </div>
-            </div>
-        </section>
-        <section class="section_3">
-            <div class="section_3_content">
-                <p>News</p>
-            </div>
+                <div class="mySlides2 fade2">
+                    <img class="main_slideImg" src="/images/이거다.jpg">
+                    <div class="text"></div>
+                </div>
 
+            </div>
         </section>
+        <!-- -------------------------------------------------------------------------------------------------------------- -->
+        <!-- <section class="section_3">
+            <div class="section_3_content">
+                <p>Car</p>
+            </div>
+        </section> -->
     </div>
     <!--don't remove !!-->
-    <script>
-        let slideIndex = 0;
-        showSlides();
 
-        function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {
-                slideIndex = 1
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 3500); // Change 3.5 seconds
-        }
-    </script>
+    <script type="text/javascript" src="/rolling.js"></script>
+    <script type="text/javascript" src="/slide.js"></script>
 </body>
 
 </html>
