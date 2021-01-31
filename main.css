@@ -24,6 +24,10 @@ body {
     overflow-y: auto;
 }
 
+::selection {
+    color: white;
+}
+
 /* pinned width */
 .wrapper {
     width: 1920px;
@@ -94,9 +98,10 @@ body {
     display: none;
 }
 
-img {
+.mySlides img {
     height: 870px;
     vertical-align: middle;
+    border-bottom: 3px solid #53ced5;
 }
 
 /* nav end */
@@ -147,7 +152,6 @@ img {
     margin-top: -19px;
     width: 100%;
     background-color: black;
-    border-bottom: 3px solid #53ced5;
 }
 
 .dot_here {
@@ -234,12 +238,12 @@ img {
     width: 100%;
     height: 300px;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 103px;
 }
 
 .main_slideImg {
     width: 100%;
-    height: 900px;
+    height: 915px;
 }
 
 /* Next & previous buttons */
