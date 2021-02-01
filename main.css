@@ -212,7 +212,7 @@ body {
 .section_2 {
     background-image: url();
     width: 100%;
-    height: 970px;
+    height: 940px;
     justify-content: center;
     border-bottom: 3px solid #53ced5;
 
@@ -225,7 +225,6 @@ body {
 }
 
 .slideshow-2-container {
-
     justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -266,8 +265,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%); */
 
-    /* 버튼 수직 정렬 */
-    line-height: 900px;
 
     padding: 30px;
     color: #53ced5;
@@ -277,9 +274,11 @@ body {
 }
 
 .slide_btn {
+    /* 버튼 수직 정렬 */
+    line-height: 870px;
+    /* max 870px */
     width: 100%;
     display: flex;
-    justify-content: center;
 }
 
 .prev {
@@ -296,8 +295,6 @@ body {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 
 .prev:hover,
 .next:hover {
@@ -348,6 +345,7 @@ body {
 /* Fading animation */
 
 .fade2 {
+    height: 600px;
     justify-content: center;
     left: 20vh;
     align-items: center;
@@ -381,10 +379,10 @@ body {
 }
 
 .name {
-    left: -5px;
+    text-align: right;
     color: white;
     position: relative;
-    font-size: 140px;
+    font-size: 120px;
 }
 
 .number {
@@ -393,11 +391,45 @@ body {
     font-size: 80px;
     color: #494949;
 }
+/* -------------------- */
+.text-1 {
+    flex-direction: column;
+    left: 78vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40vh;
+    width: 700px;
+    /* font-size: 50px; */
+    color: black;
+    height: 200px;
+}
+.text-1>span {
+    width: 660px;
+    text-align: right;
+    text-shadow: -1px 0 #53ced5, 0 1px #53ced5, 1px 0 #53ced5, 0 -1px #53ced5;
+}
+
+.name-1 {
+    left: -5px;
+    color: white;
+    position: relative;
+    font-size: 120px;
+}
+
+.number-1 {
+    width: 660px;
+    text-align: right;
+    font-size: 80px;
+    color: #494949;
+}
 
 .NO {}
 
 .main_slideImg {
-    
     border-bottom: 3px solid #53ced5;
     border-top: 3px solid #53ced5;
     border-left: 3px solid #53ced5;
