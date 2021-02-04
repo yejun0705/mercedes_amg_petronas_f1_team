@@ -492,7 +492,7 @@ body {
     align-items: center;
     border-bottom: 3px solid #53ced5;
     /* background-color: #fdfdfd; */
-    background-color: #4a4a4a;
+    background-color: #000000;
     background-image: url(./images/2922724_waifu2x_photo_noise1_scale_tta_1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -505,14 +505,6 @@ body {
     width: 100%;
     justify-content: center;
     flex-direction: column;
-}
-
-.section_3 img {
-
-    width: 100%;
-    height: 1010px;
-    margin-bottom: -80px;
-    border-bottom: 3px solid #53ced5;
 }
 
 /* .title_3 {
