@@ -1,3 +1,4 @@
+// smooath scroll Function
 function wheel(event) {
   let delta = 0;
   if (event.wheelDelta) {

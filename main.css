@@ -5,6 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300;1,500&display=swap');
 
 /* font-family: 'Dancing Script', cursive; */
 /* font-family: 'Noticia Text', serif; */
@@ -13,6 +19,13 @@
 /* font-family: 'Bitter', serif; */
 /* font-family: 'Bitter', serif; */
 /* font-family: 'Playfair Display', serif; */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+/* font-family: 'Sriracha', cursive; */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+/* font-family: 'Sriracha', cursive; */
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -29,7 +42,7 @@ body {
 }
 
 /* pinned width */
-.wrappera-a {
+.wrapper {
     width: 1920px;
     background-color: black;
 }
@@ -43,156 +56,6 @@ a {
 .nav-container {
     width: 1914px;
     margin: 0 auto;
-}
-
-/* INPUT 가리기 */
-.section [id*="slide"] {
-    display: none;
-}
-
-/* 슬라이드 영역 - max-width 크기를 조절해주면 됩니다*/
-.section .slidewrap {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-}
-
-.section .slidelist {
-    white-space: nowrap;
-    font-size: 0;
-}
-
-.section .slidelist>li {
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-    transition: all .5s;
-}
-
-.section .slidelist>li>a {
-    display: block;
-    position: relative;
-}
-
-/* 좌우로 넘기는 LABEL버튼에 대한 스타일 */
-.section .slide-control {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-}
-
-.section .slide-control label {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 50px;
-    cursor: pointer;
-}
-
-.section .slide-control .left {
-    left: 30px;
-    background: url('/images/slide_2.jpg') center center / 100% no-repeat;
-}
-
-.section .slide-control .right {
-    right: 30px;
-    background: url('/images/next_bg.jpeg') center center / 100% no-repeat;
-}
-
-.section .slide-control [class*="control"] {
-    display: none;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/* ---------위쪽코드는 reset.css------------ */
-ul {
-    list-style: none;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    width: 600px;
-    height: 400px;
-    position: relative;
-    background-color: antiquewhite;
-    overflow: hidden;
-}
-
-.slider {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.item {
-    width: 100%;
-    height: 400px;
-    background-color: yellow;
-    font-size: 35px;
-    text-align: center;
-}
-
-.item:nth-child(2) {
-    background-color: green;
-}
-
-.item:nth-child(3) {
-    background-color: blue;
-}
-
-.btn {
-    font-size: 50px;
-}
-
-.prev {
-    position: absolute;
-    top: 30%;
-    left: 0;
-}
-
-.next {
-    position: absolute;
-    top: 30%;
-    right: 0%;
-}
-
-.container ul {
-    -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
-    -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
-    transition: all 0.25s cubic-bezier(1, .01, .32, 1);
 }
 
 header {
@@ -476,7 +339,7 @@ body {
 
 /* The dots/bullets/indicators */
 
-/* .dot-2 {
+.dot-2 {
     cursor: pointer;
     height: 13px;
     width: 13px;
@@ -490,12 +353,12 @@ body {
 .active,
 .dot-2:hover {
     background-color: #717171;
-} */
+}
 
 /* Fading animation */
 
 .fade2 {
-    height: 900px;
+    height: 600px;
     justify-content: center;
     left: 20vh;
     align-items: center;
@@ -505,7 +368,6 @@ body {
     -webkit-animation-duration: 0.5s;
     animation-name: fade;
     animation-duration: 1.3s;
-
 }
 
 .text {
@@ -624,19 +486,182 @@ body {
 /* section_2 - end */
 /* section_3 - start */
 .section_3 {
-    border-bottom: 3px solid #53ced5;
     width: 100%;
-    height: 1000px;
-    display: flex;
+    height: 930px;
     justify-content: center;
     align-items: center;
+    border-bottom: 3px solid #53ced5;
+    /* background-color: #fdfdfd; */
+    background-color: #000000;
+    background-image: url(./images/2922724_waifu2x_photo_noise1_scale_tta_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .section_3_content {
-    background-image: url();
     display: flex;
+    text-align: center;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
 }
 
-/* section_3_animation */
+/* .title_3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+.section_3_content p {
+
+    color: #fff;
+    margin-top: 20%;
+    /* color: #0fe0f5; */
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    /* font-family: 'Sriracha', cursive; */
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 50px;
+    /* background-color: black; */
+    /* font-weight: bolder; */
+    /* background: linear-gradient(to right, #5b247a, #1bcedf); */
+    /* background: linear-gradient(to right, #E3E3E3, #5D6874); */
+    /* background: linear-gradient(25deg, #3c1c74, #495da1, #449ccf, #00dfff); */
+    /* background-image: linear-gradient(25deg, #ee6068, #ce8d8f, #9db1b8, #00d1e3); */
+    /* background-image: linear-gradient(25deg, #3300ce, #9f43a2, #d57c73, #ffb42a); */
+    /* background-image: linear-gradient(25deg, #5c00fd, #7473f2, #6dbae5, #23ffd4);  */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background-image: linear-gradient(25deg, #000000, #000000, #282c2d, #0c191a); */
+    /* background-image: linear-gradient(320deg, #30137e, #425aa8, #419dd2, #00e4fe); */
+    text-shadow: 4px 3px 1px #494949;
+    /* background-image: linear-gradient(324deg, #5c00fd, #7473f2, #6dbae5, #23ffd4); */
+}
+
+.section_3_content span {
+    color: #53ced5;
+    font-weight: bold;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.buttons {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #53ced5;
+}
+
+.blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #222;
+    transition: all 0.3s 0.2s;
+}
+
+.blob-btn:hover {
+    color: #222;
+}
+
+.blob-btn:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+}
+
+.blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+.blob-btn__blob {
+    position: absolute;
+    top: 6px;
+    width: 25%;
+    height: 100%;
+    background: #53ced5;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+}
+
+
+.blob-btn__blob:nth-child(1) {
+    left: 0%;
+    transition-delay: 0s;
+}
+
+.blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s;
+}
+
+.blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s;
+}
+
+.blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s;
+}
+
+.blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+}
