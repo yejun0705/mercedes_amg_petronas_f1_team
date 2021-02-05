@@ -1,5 +1,5 @@
 ﻿# Web Publising Solo Project - Yejun
-<h5>Design, Publising - by Yejun</h5>
-<h5>Design : 100% / Publising : 100%</h5>
+<h4>Design, Publising - by Yejun</h4>
+<h4>Design : 100% / Publising : 100%</h4>
 - Use stack : HTML, CSS, SCSS, JavaScript
 - 2021.01.30 ~ ing
