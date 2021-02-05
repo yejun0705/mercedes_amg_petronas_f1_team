@@ -1,5 +1,5 @@
-﻿<h3> Web Publising Solo Project - Yejun</h3>
- ---------------------------------------------
+﻿# <h3> Web Publising Solo Project - Yejun</h3>
+
 <h4>Design, Publising - by Yejun</h4>
 <h4>Design : 100% / Publising : 100%</h4>
 - Use stack : HTML, CSS, JavaScript
