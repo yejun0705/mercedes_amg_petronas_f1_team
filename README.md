@@ -1,4 +1,6 @@
-﻿# mercedes-amg petronas f1 team
-<h3>design : 100% publising : 100%</h3>
-<h4>Use stack : Html, Css, JavaScript</h4>
-<h3>2021.01.30 ~ ing</h3>
+ ## Web Publising Solo Project - Yejun 
+  ------------------------------------------------------
+<h3> Design / Publising - by Yejun</h3>
+<h3> Design : 100% / Publising : 100%</h3>
+- Use Stack : HTML, CSS, JavaScript<br>
+- 2021.01.30 ~ ing
