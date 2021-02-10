@@ -812,6 +812,7 @@ body {
 
 .section_7 {
     background-color: black;
+    border-bottom: 3px solid #53ced5;
     width: 100%;
     height: 1200px;
     display: flex;
@@ -855,15 +856,25 @@ body {
     margin-left: 60px;
     color: white;
 }
+
 .section_8 {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 930px;
+    border-bottom: 3px solid #53ced5;
+    /* background-image: url(./images/PETRONAS_PLIPress_PlaceholderImage.png); */
+    background-color: white;
 }
+
 .section_8_content {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-/* 2월 10일 수요일까지 */
+.section_8_content p {
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
