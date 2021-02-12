@@ -974,7 +974,7 @@ body {
 }
 
 .section_10_content {
-    width: 1550px;
+    width: 1600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -987,19 +987,21 @@ body {
 }
 
 .course_wrapper p {
+    text-transform: uppercase;
     margin-top: 50px;
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .section_10_text {
     text-align: center;
-    width: 500px;
+    width: 700px;
     flex-direction: column;
 
 }
 
 .section_10_content span {
+    text-transform: uppercase;
     color: white;
     font-size: 50px;
 }
