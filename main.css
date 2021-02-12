@@ -880,10 +880,9 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 40px;
-    color: #53ced5;
-    /* color: white; */
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #53ced5;
 
 }
 
@@ -950,4 +949,15 @@ body {
 
 .Team_Partners_2 img {
     width: 6%;
+}
+
+.section_9 {
+    display: flex;
+    justify-content: center;
+}
+
+.section_9_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
