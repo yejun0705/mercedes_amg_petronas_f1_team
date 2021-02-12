@@ -13,6 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 /* font-family: 'Dancing Script', cursive; */
 /* font-family: 'Noticia Text', serif; */
@@ -27,6 +28,7 @@
 /* font-family: 'Sriracha', cursive; */
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
 html {
     scroll-behavior: smooth;
 }
@@ -911,7 +913,7 @@ body {
 
 .Principal_Partner {
     width: 1500px;
-    height: 180px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -937,6 +939,7 @@ body {
 .Team_Partners img {
     width: 6%;
     margin-right: 30px;
+    margin-bottom: -80px;
 }
 
 .Team_Partners_2 {
@@ -948,16 +951,62 @@ body {
 }
 
 .Team_Partners_2 img {
+    margin-bottom: -80px;
     width: 6%;
 }
 
 .section_9 {
+    width: 100%;
+    height: 970px;
     display: flex;
     justify-content: center;
+    background-image: url(./images/dsafffff.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.section_9_content {
+.section_10 {
+    width: 100%;
+    height: 1500px;
     display: flex;
     justify-content: center;
+    border-bottom: 3px solid #53ced5;
+}
+
+.section_10_content {
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.course_wrapper {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.course_wrapper p {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+.section_10_text {
+    text-align: center;
+    width: 500px;
+    flex-direction: column;
+
+}
+
+.section_10_content span {
+    color: white;
+    font-size: 50px;
+}
+
+.section_10_text p {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: #53ced5;
 }
