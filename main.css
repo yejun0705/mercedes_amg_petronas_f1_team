@@ -60,7 +60,7 @@ a {
 }
 
 .nav-container {
-    width: 1914px;
+    width: 1920px;
     margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ header {
 }
 
 .logo_img {
-    margin-left: 20vh;
+    margin-left: 18vh;
     width: 43%;
 }
 
@@ -83,7 +83,7 @@ header>nav {
     font-family: 'Raleway', sans-serif;
     width: 600px;
     height: 100%;
-    margin-right: 10vh;
+    margin-right: -4vh;
 }
 
 a {
@@ -91,7 +91,7 @@ a {
 }
 
 header ul {
-    width: 560px;
+    width: 360px;
     height: 100%;
     display: flex;
     justify-content: space-between;
