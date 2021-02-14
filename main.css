@@ -137,9 +137,6 @@ body {
     min-height: 815px;
 }
 
-/* Caption text */
-
-
 /* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
@@ -149,7 +146,6 @@ body {
     top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     top: -10px;
     height: 15px;
@@ -265,8 +261,6 @@ body {
     width: 100%;
     height: 150px;
 }
-
-
 
 /* Next & previous buttons */
 
@@ -967,7 +961,7 @@ body {
 
 .section_10 {
     width: 100%;
-    height: 1500px;
+    height: 1550px;
     display: flex;
     justify-content: center;
     border-bottom: 3px solid #53ced5;
@@ -986,16 +980,19 @@ body {
     text-align: center;
 }
 
+.course_wrapper img {
+    width: 100%;
+}
+
 .course_wrapper p {
     text-transform: uppercase;
-    margin-top: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
 }
 
 .section_10_text {
     text-align: center;
-    width: 700px;
+    width: 800px;
     flex-direction: column;
 
 }
@@ -1012,4 +1009,3 @@ body {
     font-size: 40px;
     color: #53ced5;
 }
-/* section_10 design finsh */
