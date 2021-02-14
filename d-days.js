@@ -10,3 +10,4 @@ setInterval(function () {
 
     document.getElementById("count").innerHTML = day + "d " + hour + "h " + min + "m " + sec + "s";
 }, 1000);
+// end

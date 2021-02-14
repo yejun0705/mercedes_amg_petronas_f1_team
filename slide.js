@@ -26,3 +26,4 @@ function showSlides2(n) {
     slides2[slideIndex - 1].style.display = "block";
     dots2[slideIndex - 1].className += " active";
 }
+// end

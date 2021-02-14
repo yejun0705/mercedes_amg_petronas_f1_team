@@ -19,3 +19,4 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 3500); // Change 3.5 seconds
 }
+// end

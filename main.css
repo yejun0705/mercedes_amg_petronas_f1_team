@@ -858,8 +858,7 @@ body {
 .section_8 {
     display: flex;
     width: 100%;
-    height: 1000px;
-    border-bottom: 3px solid #53ced5;
+    height: 1300px;
     background-color: black;
 }
 
@@ -878,8 +877,6 @@ body {
     font-size: 35px;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    border-bottom: 1px solid #53ced5;
-
 }
 
 .section_8_content img {
@@ -887,7 +884,15 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.footer {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #53ced5;
+    color: white;
+}
 .title_partners {
     width: 1500px;
     height: 250px;
@@ -1212,7 +1217,7 @@ body {
 
 .section_17 {
     width: 100%;
-    height: 1000px;
+    height: 900px;
     display: flex;
     justify-content: center;
 }
@@ -1245,7 +1250,7 @@ body {
 
 .section_19 {
     width: 100%;
-    height: 1500px;
+    height: 1400px;
     display: flex;
     justify-content: center;
 }
